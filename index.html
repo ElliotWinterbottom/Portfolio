@@ -3,21 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = style.css>
+
+    <title>Portfolio</title>
+
+
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/DnHyUhiYiR3kwKQxxb" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/freakmeaning-freak-meaning-fre4k-DnHyUhiYiR3kwKQxxb">via GIPHY</a></p>
-    </header>
-    <section>
-        <h2>About Me</h2>
-        <p>Introduce yourself here.</p>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <p>Showcase your projects here.</p>
-    </section>
+   
+    <!--NAVBAR-->
+    <nav>
+        
+        <div class="left">
+
+            <a href="/Portfolio/">Elliot Winterbottom</a>
+
+        </div>
+
+
+        <div class="right">
+
+            <a href="https://github.com/ElliotWinterbottom" target="_blank" rel = "noopenernoreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+
+            <a href="www.linkedin.com/in/elliot-winterbottom-3b78742b5" target="_blank" rel = "noopenernoreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+
+            <a href= "mailto: winterbottomelliot@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            
+        </div>
+        
+    </nav>
+
+    <div class="seperator">
+        <div id = "navsep"  class="seperator2">
+        </div>
+    </div>
+
+    <main>
+        <!--SECTION 1: Hero-->
+        <section class="hero-section">
+            <div class = "text">
+                <h2>Hi, I'm Elliot</h2>
+                
+                <p>I’m currently a robotics MSc student at the University of Manchester. 
+                    I’m interested in the control of robots in new and interesting ways, specifically how pure mathematical techniques can be applied to real world autonomous systems.
+                    I have a broad range of both practical and academic skills and am deeply enthusiastic about autonomous robotic control both in theory and application. My long term goal is to become an academic.</p>
+                <h3>I’m currently reading about: quaternions.</h3>
+                <div class="links">
+
+                    <a href="#Skills">
+                        <i class="fa-solid fa-screwdriver"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#Projects">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#Academic-portfolio">
+                        <i class="fa-brands fa-google-scholar"></i>
+                        <span>Academic portfolio</span>
+                    </a>
+
+                    <a href="#Contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+
+
+
+                </div>
+
+            </div>
+            <div class = "headshot">
+                <img src = "Images/headshot.webp" alt = "Elliot Winterbottom headshot"> </img>
+            </div>
+        </section>
+
+        <div class="seperator">
+            <div class="seperator2">
+            </div>
+        </div>
+
+        <!--SECTION 2: Skills-->
+        <section id = "Skills" class="skills-section">
+            <h2 >Skills</h2>
+
+            <div class="text">
+                Below are the range of tools and technologies I am proficient with.            </div>
+
+            <div class="cells" >
+                <div class="cells" >
+                    <div class="cells">
+                        <img src="Images/Ros2logo.webp" alt=" Ros2logo">
+                        <span>ROS2</span>
+                    </div>
+
+                    <div class="cells">
+                        <img src="Images/Matlab_Logo.webp" alt=" Matlab Logo">
+                        <span>MATLAB</span>
+                    </div>
+
+                    <div class="cells">
+                        <img src="Images/C_Logo.webp" alt=" c C Logo">
+                        <span>C </span>
+                    </div>
+
+                    <div class="cells">
+                        <img src="Images/ISO_C++_Logo.webp" alt="C++ Logo">
+                        <span>C++ </span>
+                    </div>
+                </div>
+
+
+
+                <div class="cells">
+
+                    <div class="cells">
+                        <img src="Images/Jupyter_logo.svg.webp" alt="Jupyter logo">
+                        <span>Jupyter</span>
+                    </div>
+
+                    <div class="cells">
+                        <img src="Images/onshape-logo.webp" alt=" onshape logo">
+                        <span>Onshape</span>
+                    </div>
+
+                    <div class="cells">
+                        <img src="Images/platformio-logo.17fdc3bc.webp" alt="PlatformIO logo">
+                        <span>PlatformIO</span>
+                    </div>
+
+                    <div class="cells">
+                        <img src="Images/Arduino_Logo.svg.webp" alt="Arduino logo">
+                        <span>Arduino</span>
+                    </div>
+
+                <div class="cells">
+                    <img src="Images/Visual_Studio_Code_1.35_icon.svg.webp" alt="Visual Studio Code logo">
+                    <span>VS:Code</span>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <div class="seperator">
+            <div class="seperator2">
+            </div>
+        </div>
+
+        <!--SECTION 3: Projects-->
+        <section id = "Projects">
+            <div class="project-group">
+                <h2>Projects</h2>
+                
+                <div id ="Project" class="project-section">
+                    <div class="group">
+                        <div class="project-details">
+                            <img src="Images/MSDG_rocket.webp" alt="">
+                            <p>AAS CanSat competition 2024</p>
+                        </div>
+                        <div class="text">
+                            <div class="project-title">
+                                Manchester Satillite Developement Group
+                            </div>
+                            This is an ongoing student lead project involving the creation of can-sized satellites (or CanSat for short). From September 2023 to July 2024 I worked as a software and sensors engineer for Manchester Satellite Development Group’s international team. Because of this work, we were invited to attend the American Astronautical Society’s (AAS) competition located in Virginia. We attended and competed in this competition, having our CanSat launched and deploy successfully.
+                            I am currently the electrical lead for this years AAS team and am working hard to help us attended the competition again this year. 
+                            <h3>Skills involved: Embedded programing, Control, Sensors, Teamwork</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div id ="Project" class="project-section">
+                    <div class="group">
+                        <div class="project-details">
+                            <img src="Images/ASS.webp" alt="">
+                            <p>Automatic Swabbing System</p>
+                        </div>
+                        <div class="text">
+                            <div class="project-title">
+                                Optimsing Control for Robotic Swabbing
+                            </div>
+                            This was a summer internship at the University of Manchester which involved the creation of an testing device and related firmware for different proposed end effectors of an automatic swabbing system. This work, supervised by Dr XiaoXiao Cheng and based on the work by Dr Thomas Johnson, required work in MATLAB, Python, and Onshape. It also required working with Intel Real-sense cameras and Zaber linear actuators. It has given me a good mind for the practical implementation of autonomous systems.
+                            <h3>Skills involved: Embedded programing, 3D modelling CAD, Control, Sensors </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div id ="Project" class="project-section">
+                    <div class="group">
+                        <div class="project-details">
+                            <img src="Images/tactile.webp" alt="">
+                            <p>Tactile feedback test rig</p>
+                        </div>
+                        <div class="text">
+                            <div class="project-title">
+                                Investigating tactile illusions for haptic feedback
+                            </div>
+                            This was my 3rd year dissertation project for my undergraduate degree. In involved the investigation of potential low-cost haptic feedback methods. The method investigated in particular was that of tactile illusions. Testing setups and methodologies were created, user studies were carried out, and statistical methods applied to the results. The full report for this project can be found in the academic portfolio below.
+                            <h3>Skills involved: Test design, Statistical analysis, Research, Academic writing  </h3>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div id ="Project" class="project-section">
+                    <div class="group">
+                        <div class="project-details">
+                            <img src="Images/ESP.webp" alt="">
+                            <p>ESP buggy</p>
+                        </div>
+                        <div class="text">
+                            <div class="project-title">
+                                Embedded Systems Project
+                            </div>
+                            This was a 2nd year project in my undergraduate degree. It involved creating an  line following buggy which would be raced in a time trial style competition with other buggys. I worked in a group of 4 which worked together and eventually won this race, being presented with an award for this achievement at the end.  
+                            <h3>Skills involved: Embedded programming, Teamwork, Project management</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </section>
+
+
+        <div class="seperator">
+            <div class="seperator2">
+            </div>
+        </div>
+        
+
+        <!--SECTION 4: Academic portfolio-->
+        <section id = "Academic-portfolio">
+            <div class="academic-portfolio-section">
+
+                <h1>Academic portfolio</h1>
+                <h2>--Documents--</h2>
+
+                <div class="documents">
+                    
+                    <a href="Documents/Winterbottom_Elliot_Final_Report.pdf" target="_blank">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <span>3rd year undergraduate dissertation</span>
+                    </a>
+
+                    <a href="Documents/Elliot Winterbottom CV.pdf" target="_blank">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <span>Academic CV</span>
+                        </a>
+
+                </div>
+
+                <h2>--Videos--</h2>
+                <div class="videos">
+                    <div class="video-cell">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/-Kkqp1-doKM" title="Robotic systems for sustainable development" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                    <div class="video-cell">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/y634QFYWj84" title="Control of Wheeled Robots" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                   
+                     </div>
+                    <div class="video-cell">
+                        <iframe width="420" height="315" src="https://www.youtube.com/embed/NQbMKz3qbP4" title="Ethically aligned design of autonomous and intelligent  systems" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <div class="seperator">
+            <div class="seperator2">
+            </div>
+        </div>
+        
+
+        <!--SECTION 5: Contact-->
+        <section id = "Contact" class="contact-section">
+            
+            <h2>Contact</h2>
+
+            <div class="group">
+                <div class="text">
+                    If you have any questions, would like to reach out for opportunities, or would simply like a chat. Please feel free to contact me using the links at the top of the page or this quick form. I can’t wait to hear from you.
+                </div>
+
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="a2db0ecc-bd07-427a-98b7-5a277104320a">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name = "name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name = "email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10" name = "message" ></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+            </div>
+           
+        </section>
+    </main>
 </body>
 </html>
