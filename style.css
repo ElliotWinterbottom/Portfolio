@@ -268,14 +268,6 @@ nav .right span{
     margin-bottom: 10px;
 }
 
-.project-group .project-section .project-group .group .project-details .overlay-giff{
-    aspect-ratio: 1/1;
-    width: 200px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
 .project-group .project-section .group .project-details p{
     font-weight: 600;
     
@@ -286,6 +278,13 @@ nav .right span{
 }
 
 /*SECTION 4: Academic portfolio*/
+
+
+.academic-portfolio-section .documents a:hover{
+    color:var(--text-color);
+    border: 2px solid var(--text-color);
+}
+
 .academic-portfolio-section
 {
     display: flex;
@@ -390,6 +389,17 @@ nav .right span{
     
 }
 
+#robot-walking-gif-div
+{
+    size: 10px;
+}
+
+#robot-walking-gif
+{
+    width: 20%;
+    transform:scaleX(-1);
+    justify-self: right;
+}
 .contact-section .group form{
     flex: 3;
     color: var(--text-color);
